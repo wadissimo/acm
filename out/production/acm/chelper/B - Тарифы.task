@@ -1,0 +1,29 @@
+16 B - Тарифы
+12 MULTI_NUMBER
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+29 2 1
+100 60 100
+51 10 100
+600
+
+1 1
+1
+11 src/chelper
+16 -Xmx256M -Xss64M
+4 Main
+13 chelper.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.20
+69 Russian CodeCup 1-й квалификационный раунд 2011
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

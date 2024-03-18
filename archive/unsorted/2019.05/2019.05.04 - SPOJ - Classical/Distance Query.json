@@ -1,0 +1,49 @@
+{
+  "name" : "Distance Query",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2 3 100\n4 3 200\n1 5 150\n1 3 50\n3\n2 4\n3 5\n1 2",
+    "output" : "100 200\n50 150\n50 100",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7\n3 6 4\n1 7 1\n1 3 2\n1 2 6\n2 5 4\n2 4 4\n5\n6 4\n7 6\n1 2\n1 3\n3 5",
+    "output" : "2 6\n1 4\n6 6\n2 2\n2 6",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n1 2 100\n3\n1 2\n2 1\n1 2",
+    "output" : "100 100\n100 100\n100 100",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "4\n1 2 10\n2 3 20\n3 4 30\n4\n1 4\n4 1\n2 1\n1 2",
+    "output" : "10 30\n10 30\n10 10\n10 10",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "main.DistanceQuery",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.04",
+  "contestName" : "SPOJ - Classical",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

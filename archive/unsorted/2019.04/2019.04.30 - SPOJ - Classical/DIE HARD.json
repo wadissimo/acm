@@ -1,0 +1,54 @@
+{
+  "name" : "DIE HARD",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n2 10\n4 4\n20 8\n1000 1000",
+    "output" : "1\n1\n5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n1 1",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n1 1000\n",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n1000 1",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1\n2 2",
+    "output" : "",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "main.DIEHARD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.30",
+  "contestName" : "SPOJ - Classical",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

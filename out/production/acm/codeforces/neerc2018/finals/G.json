@@ -1,0 +1,39 @@
+{
+  "name" : "G",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n2\n0 1 0 0 0 0 0\n100000000\n1 0 0 0 1 0 1\n1\n1 0 0 0 0 0 0\n",
+    "output" : "8\n233333332\n1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n2\n1 0 1 0 1 1 0\n2\n1 0 1 0 1 0 1",
+    "output" : "2\n3",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/neerc2018/finals",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.neerc2018.finals.G",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.02",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,46 @@
+{
+  "name" : "C - Cut 'em all!",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n2 4\n4 1\n3 1\n",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n1 2\n1 3\n",
+    "output" : "-1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\n7 1\n8 4\n8 10\n4 7\n6 5\n9 3\n3 5\n2 10\n2 5\n",
+    "output" : "4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n1 2\n",
+    "output" : "0",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r484",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r484.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.27",
+  "contestName" : "Codeforces Round #484 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

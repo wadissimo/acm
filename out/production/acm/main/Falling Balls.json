@@ -1,0 +1,39 @@
+{
+  "name" : "Falling Balls",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n4\n1 1 1 1\n3\n0 2 1\n6\n3 0 0 2 0 1\n",
+    "output" : "Case #1: 1\n....\nCase #2: IMPOSSIBLE\nCase #3: 3\n.//\\..\n./\\./.\n......\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n8\n2 0 0 2 0 1 2 1",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "main.FallingBalls",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.17",
+  "contestName" : "Round 2 2018 - Google Code Jam 2018",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

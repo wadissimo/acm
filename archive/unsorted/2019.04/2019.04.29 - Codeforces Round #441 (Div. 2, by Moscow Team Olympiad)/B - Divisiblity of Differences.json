@@ -1,0 +1,44 @@
+{
+  "name" : "B - Divisiblity of Differences",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2 3\n1 8 4\n",
+    "output" : "Yes\n1 4 ",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 3 3\n1 8 4\n",
+    "output" : "No",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 3 5\n2 7 7 7\n",
+    "output" : "Yes\n2 7 7 ",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "main.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.29",
+  "contestName" : "Codeforces Round #441 (Div. 2, by Moscow Team Olympiad)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

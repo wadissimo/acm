@@ -1,0 +1,61 @@
+{
+  "name" : "B - Heaters",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6 2\n0 1 1 0 0 1\n",
+    "output" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 3\n1 0 0 0 1\n",
+    "output" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 10\n0 0 0 0 0\n",
+    "output" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10 3\n0 0 1 1 0 1 0 0 0 1\n",
+    "output" : "3",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "4 2\n1 1 1 1",
+    "output" : "2",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "5 1\n1 0 1 1 1",
+    "output" : "-1",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "5 1\n1 1 1 1 1",
+    "output" : "5",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r515",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r515.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.12",
+  "contestName" : "Codeforces Round #515 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "J_Sushi",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1 1 1",
+    "output" : "5.5\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n3",
+    "output" : "3",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n1 2",
+    "output" : "4.5",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "10\n1 3 2 3 3 2 3 2 1 3",
+    "output" : "54.48064457488221",
+    "index" : 3,
+    "active" : false
+  } ],
+  "location" : "src/atcoder/dp",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "atcoder.dp.J_Sushi",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.20",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

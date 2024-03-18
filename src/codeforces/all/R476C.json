@@ -1,0 +1,59 @@
+{
+  "name" : "R476C",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 5\n0 0 1 0 2 0 0 1 0\n",
+    "output" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10 3\n1 1 1 1 2 1 1 1 1\n",
+    "output" : "3",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2 1\n10",
+    "output" : "10",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 1\n10 0",
+    "output" : "0",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3 1\n1 19",
+    "output" : "1",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "100 15\n0 0 1 1 1 0 1 1 1 1 0 1 1 1 0 1 0 0 1 0 1 1 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 1 0 1 0 1 1 0 0 0 1 0 0 0 0 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 0 0 0 1 1 0 1 1 0 0 1 0 1 0 1 0 0 1 0 0 1 0 0 1 1 0 1 0 1 0 0 1 0\n",
+    "output" : "5",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/all",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.all.R476C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.11",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

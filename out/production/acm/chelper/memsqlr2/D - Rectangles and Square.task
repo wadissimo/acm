@@ -1,0 +1,47 @@
+25 D - Rectangles and Square
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+74 9
+0 0 1 9
+1 0 9 1
+1 8 9 9
+8 1 9 8
+2 2 3 6
+3 2 7 3
+2 6 7 7
+5 3 7 6
+3 3 5 6
+
+16 YES 5
+5 6 7 8 9
+
+1
+1
+34 4
+0 0 1 9
+1 0 9 1
+1 8 9 9
+8 1 9 8
+
+3 NO
+
+1
+20 src/chelper/memsqlr2
+8 -Xmx512M
+4 Main
+22 chelper.memsqlr2.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.22
+25 MemSQL start[c]up Round 2
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

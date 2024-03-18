@@ -1,0 +1,81 @@
+{
+  "name" : "E - Segment Sum",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "100 1000 1",
+    "output" : "540",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "2000 1000 2",
+    "output" : "230464",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "1000 1000 2",
+    "output" : "143820",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "200 200 1",
+    "output" : "651",
+    "index" : 3,
+    "active" : false
+  }, {
+    "input" : "200 200 2",
+    "output" : "8828",
+    "index" : 4,
+    "active" : false
+  }, {
+    "input" : "100 100 2",
+    "output" : "4950",
+    "index" : 5,
+    "active" : false
+  }, {
+    "input" : "4567 4567 3",
+    "output" : "5514027",
+    "index" : 6,
+    "active" : false
+  }, {
+    "input" : "4000 1000 3",
+    "output" : "4172136",
+    "index" : 7,
+    "active" : false
+  }, {
+    "input" : "10 50 2\n",
+    "output" : "1230\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "1 2345 10\n",
+    "output" : "2750685\n",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "101 154 2\n",
+    "output" : "2189\n",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/ecr53",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ecr53.TaskE",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.26",
+  "contestName" : "Educational Codeforces Round 53 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "C - Permutation Game",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "8\n3 6 5 4 2 7 1 8",
+    "output" : "BAAAABAB",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "15\n3 11 2 5 10 9 7 13 15 8 4 12 6 1 14",
+    "output" : "ABAAAABBBAABAAB",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n1",
+    "output" : "B",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/lyft2018",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.lyft2018.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.07",
+  "contestName" : "Lyft Level 5 Challenge 2018 - Elimination Round",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

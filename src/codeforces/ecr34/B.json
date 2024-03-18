@@ -1,0 +1,39 @@
+{
+  "name" : "B",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 6 100\n17 5\n",
+    "output" : "4\nSTRIKE\nHEAL\nSTRIKE\nSTRIKE\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "11 6 100\n12 5\n",
+    "output" : "2\nSTRIKE\nSTRIKE\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/ecr34",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ecr34.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.11",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

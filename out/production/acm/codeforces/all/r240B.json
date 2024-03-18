@@ -1,0 +1,49 @@
+{
+  "name" : "r240B",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n",
+    "output" : "5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6 4\n",
+    "output" : "39",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2 1\n",
+    "output" : "2",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2000 2000",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/all",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.all.r240B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.03",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

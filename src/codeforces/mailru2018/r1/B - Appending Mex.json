@@ -1,0 +1,51 @@
+{
+  "name" : "B - Appending Mex",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n0 1 2 1\n",
+    "output" : "-1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n1 0 1\n",
+    "output" : "1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n0 1 2 239\n",
+    "output" : "4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n1",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1\n0",
+    "output" : "-1",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/mailru2018/r1",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.mailru2018.r1.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.18",
+  "contestName" : "Mail.Ru Cup 2018 Round 1",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

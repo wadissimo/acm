@@ -1,0 +1,49 @@
+{
+  "name" : "C - Maximum splitting",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n12\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n6\n8\n",
+    "output" : "1\n2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n1\n2\n3\n",
+    "output" : "-1\n-1\n-1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "4\n6\n9\n15\n27",
+    "output" : "1\n1\n1\n4",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "main.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.29",
+  "contestName" : "Codeforces Round #440 (Div. 2, based on Technocup 2018 Elimination Round 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,51 @@
+{
+  "name" : "D - Shark",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "8\n1 2 7 3 4 8 5 6\n",
+    "output" : "7",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n25 1 2 3 14 36\n",
+    "output" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n1 5",
+    "output" : "2",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n5 1",
+    "output" : "2",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3\n5 1 4",
+    "output" : "2",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r484",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r484.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.27",
+  "contestName" : "Codeforces Round #484 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

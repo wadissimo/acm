@@ -1,0 +1,64 @@
+{
+  "name" : "r546_D",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "A-small-practice.in"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 1\n1 2\n1 2\n",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 3\n3 1 2\n1 2\n3 1\n3 2\n",
+    "output" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 2\n3 1 5 4 2\n5 2\n5 4\n",
+    "output" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 1\n1 2 3\n1 2",
+    "output" : "0",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3 0\n1 2 3",
+    "output" : "0",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "3 2\n1 2 3\n1 3\n2 3",
+    "output" : "2",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "3 2\n1 2 3\n3 1\n3 2",
+    "output" : "0",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/all",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.all.r546_D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.12",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

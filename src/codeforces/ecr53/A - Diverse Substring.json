@@ -1,0 +1,51 @@
+{
+  "name" : "A - Diverse Substring",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "10\ncodeforces\n",
+    "output" : "YES\ncode\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "5\naaaaa\n",
+    "output" : "NO\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\na",
+    "output" : "NO",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\naa",
+    "output" : "NO",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2\nab",
+    "output" : "YES\nab",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/ecr53",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ecr53.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.26",
+  "contestName" : "Educational Codeforces Round 53 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

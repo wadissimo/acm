@@ -1,0 +1,43 @@
+{
+  "name" : "C - Colored Rooks",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3 2\n1 2\n2 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 2\n2 3\n3 1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 1\n1 3\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5 4\n1 3\n1 4\n2 4\n4 5",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r518",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r518.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.24",
+  "contestName" : "Codeforces Round #518 (Div. 2) [Thanks, Mail.Ru!]",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

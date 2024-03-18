@@ -1,0 +1,46 @@
+{
+  "name" : "E - Binary Numbers AND Sum",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4 4\n1010\n1101\n",
+    "output" : "12",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 5\n1001\n10101\n",
+    "output" : "11",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 3\n10001\n100",
+    "output" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1 1\n1\n1",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r515",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r515.TaskE",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.12",
+  "contestName" : "Codeforces Round #515 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

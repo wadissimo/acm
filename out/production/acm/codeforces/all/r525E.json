@@ -1,0 +1,49 @@
+{
+  "name" : "r525E",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1 2 3\n1 2\n1 3\n",
+    "output" : "6 1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n-2\n",
+    "output" : "-2 1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n-1 -1 -1\n1 2\n2 3\n",
+    "output" : "-3 3",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n-1 -2 -1\n1 2\n1 3\n",
+    "output" : "-2 2",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/all",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.all.r525E",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.04",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

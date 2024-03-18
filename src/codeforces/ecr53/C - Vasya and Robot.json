@@ -1,0 +1,50 @@
+{
+  "name" : "C - Vasya and Robot",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\nRURUU\n-2 3\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\nRULR\n1 1\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\nUUU\n100 100\n",
+    "output" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6\nUUUUUU\n3 2",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "5\nDUUUD\n2 3",
+    "output" : "5",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/ecr53",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ecr53.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.26",
+  "contestName" : "Educational Codeforces Round 53 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

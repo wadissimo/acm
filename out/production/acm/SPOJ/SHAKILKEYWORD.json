@@ -1,0 +1,34 @@
+{
+  "name" : "SHAKILKEYWORD",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\nab#c def#.\nAbcde fghij\nabc.efg#ijk #lMn.\n",
+    "output" : "ab#c\ndef#\nNo keywords.\nefg#ijk\n#lMn",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/SPOJ",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "SPOJ.SHAKILKEYWORD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.06",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

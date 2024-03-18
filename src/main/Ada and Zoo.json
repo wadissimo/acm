@@ -1,0 +1,39 @@
+{
+  "name" : "Ada and Zoo",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n3\n1 2 1\n2 1 2\n1 2 1\n3\n0 0\n0 2\n2 1\n3\n5 5 5\n7 5 5\n3 4 4\n4\n0 0\n0 0\n0 0\n2 0\n3\n1 2 3\n4 5 6\n7 8 9\n2\n0 0\n2 2\n8\n1 8 5 2 3 6 7 4\n1 5 7 5 4 6 8 7\n9 8 7 4 5 2 3 6\n1 4 5 7 2 5 3 6\n5 2 1 2 4 5 8 5\n9 9 9 9 6 6 4 5\n2 2 3 4 9 1 9 1\n1 4 1 4 7 5 2 1\n5\n0 0\n5 6\n3 3\n2 1\n7 7\n3\n5 5 5\n7 5 5\n3 4 4\n3\n0 0\n0 0\n0 0\n2\n9 3\n3 4\n2\n1 0\n0 1",
+    "output" : "12\n14\n8\n441\n0\n2",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n17\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 1\n1 5 5 5 5 5 5 5 5 5 5 5 5 5 1 5 1\n1 5 1 1 1 1 1 1 1 1 1 1 1 5 1 5 1\n1 5 1 5 5 5 5 5 5 5 5 5 1 5 1 5 1\n1 5 1 5 1 1 1 1 1 1 1 5 1 5 1 5 1\n1 5 1 5 1 5 5 5 5 5 1 5 1 5 1 5 1\n1 5 1 5 1 5 1 1 1 5 1 5 1 5 1 5 1\n1 5 1 5 1 5 1 5 5 5 1 5 1 5 1 5 1\n1 5 1 5 1 5 1 1 1 1 1 5 1 5 1 5 1\n1 5 1 5 1 5 5 5 5 5 5 5 1 5 1 5 1\n1 5 1 5 1 1 1 1 1 1 1 1 1 5 1 5 1\n1 5 1 5 5 5 5 5 5 5 5 5 5 5 1 5 1\n1 5 1 1 1 1 1 1 1 1 1 1 1 1 1 5 1\n1 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 1\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n10\n0 0\n3 5\n8 9\n13 16\n11 8\n2 15\n9 3\n4 5\n9 12\n1 7",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "main.AdaAndZoo",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.03",
+  "contestName" : "SPOJ - Classical",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

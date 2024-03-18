@@ -1,0 +1,56 @@
+{
+  "name" : "E - Sasha and a Patient Friend",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6\n1 2 1\n1 4 -3\n3 1 6 1\n3 1 6 3\n3 1 6 4\n3 1 6 5\n",
+    "output" : "5\n5.666667\n6\n-1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n1 2 2\n1 4 4\n1 7 -10\n3 2 4 1\n3 5 6 0\n3 1 15 1\n2 4\n3 1 15 1\n1 8 1\n3 1 15 1\n",
+    "output" : "-1\n5\n8.7\n8.1\n-1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\n1 1000 9999999\n1 2000 -9999\n3 1000 2000 0\n2 1000\n3 1000 2002 1\n",
+    "output" : "1000\n2000.0001\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n1 1000 10\n2 1000\n3 1000000000 1000000000 1000000000",
+    "output" : "-1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "6\n1 7 -460747048\n1 12 -693247574\n2 7\n1 7 -679575641\n2 7\n3 18 25 5\n",
+    "output" : "-1.0",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "41\n1 7 -460747048\n1 12 -693247574\n2 7\n1 7 -679575641\n2 7\n3 18 25 5\n1 32 -177679178\n1 10 -552707677\n2 10\n1 24 -106259\n1 7 -102289583\n2 12\n3 18 27 1\n3 22 43 22\n1 6 -672278374\n2 24\n1 27 -459888275\n1 19 -942412278\n2 27\n1 45 -931192087\n3 34 41 10\n1 20 -762355795\n3 24 36 4\n1 47 -161519431\n1 2 -168324974\n1 46 -571193504\n2 45\n2 32\n2 19\n2 2\n1 1 -219513020\n2 46\n1 24 -167728157\n1 44 -617761493\n3 1 39 25\n2 1\n1 46 -15342290\n2 24\n3 16 36 13\n1 41 -787678831\n3 26 30 12\n",
+    "output" : "",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r539",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r539.TaskE",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.17",
+  "contestName" : "Codeforces Round #539 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "B - Square Difference",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n6 5\n16 13\n61690850361 24777622630\n34 33",
+    "output" : "YES\nNO\nNO\nYES",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n499122177 499122176",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\n35838040099 35838040098\n26612022790 26612022789\n23649629085 23649629084\n17783940691 17783940690\n31547284201 31547284200",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/lyft2018",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.lyft2018.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.07",
+  "contestName" : "Lyft Level 5 Challenge 2018 - Elimination Round",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

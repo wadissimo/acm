@@ -1,0 +1,49 @@
+{
+  "name" : "Coder Express 3!!",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n10\n1 3 5 6 4 8 4 3 2 1\n6\n8 6 3 4 2 1",
+    "output" : "9\n5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n5\n1 2 3 4 4\n6\n1 4 5 6 7 8",
+    "output" : "4\n6\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n5\n5 4 3 2 1\n10\n5 5 4 4 3 3 2 2 1 1",
+    "output" : "5\n5",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n2\n4 4\n1\n4",
+    "output" : "1\n1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "main.CoderExpress3",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.12",
+  "contestName" : "SPOJ - Classical",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

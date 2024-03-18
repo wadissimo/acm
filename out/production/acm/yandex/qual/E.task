@@ -1,0 +1,37 @@
+1 E
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+7 4 4 1 7
+1 6
+1
+1
+10 1 30 10 17
+1 2
+1
+2
+9 5 5 10 20
+1 0
+1
+3
+43 1000000000 1000000000 1 1000000000000000000
+3 213
+1
+15 src/yandex/qual
+16 -Xmx256m -Xss64m
+4 Main
+13 yandex.qual.E
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.05.17
+0 
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

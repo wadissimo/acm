@@ -1,0 +1,44 @@
+{
+  "name" : "F - Lost in Transliteration",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10\nmihail\noolyana\nkooooper\nhoon\nulyana\nkoouper\nmikhail\nkhun\nkuooper\nkkkhoon\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9\nhariton\nhkariton\nbuoi\nkkkhariton\nboooi\nbui\nkhariton\nboui\nboi\n",
+    "output" : "5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\nalex\nalex\n",
+    "output" : "1\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "main.TaskF",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.11",
+  "contestName" : "2017-2018 ACM-ICPC, NEERC, Южный четвертьфинал (онлайн-трансляция, правила ACM-ICPC, предпочтительно команды)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

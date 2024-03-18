@@ -1,0 +1,21 @@
+4 Task
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+11 src/chelper
+16 -Xmx256m -Xss64m
+4 Main
+12 chelper.Task
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.04.04
+3 asd
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

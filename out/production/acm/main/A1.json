@@ -1,0 +1,39 @@
+{
+  "name" : "A1",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "/home/vadim/dev/tmp/A1_input.txt"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "/home/vadim/dev/tmp/A1_output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2 2 2\n1 2\n0 0 0 100\n3 3\n0 0 0 100\n2 2 2\n10 20\n0 0 0 100\n3 3\n0 0 0 100\n5 5 3\n2 4 5 9 12\n0 0 0 100\n4 3 6 3 2\n0 0 0 100\n10 3 8\n9 14 15\n0 1 3 53\n12 7 16\n5 2 1 38\n50 10 17\n4 9 10 26 28 59 97 100 105 106\n1 0 7 832\n130 12 82 487 12 30 214 104 104 527\n21 81 410 605\n",
+    "output" : "Case #1: 120\nCase #2: 200\nCase #3: 9144576\nCase #4: 803986060\nCase #5: 271473330\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n2 2 4\n1 5\n0 0 0 1000\n6 5\n0 0 0 1000\n",
+    "output" : "Case #1: 560",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.A1",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.15",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

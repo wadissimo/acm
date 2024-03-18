@@ -1,0 +1,39 @@
+{
+  "name" : "CHUNK2",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n10 6\n1 2\n2 3\n3 4\n4 5\n6 7\n9 10",
+    "output" : "11",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n3 0",
+    "output" : "-1",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/SPOJ",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "SPOJ.CHUNK2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.03",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

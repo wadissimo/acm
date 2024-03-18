@@ -1,0 +1,29 @@
+25 C - K-cортировка
+12 MULTI_NUMBER
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+15 5
+6 10 4 1 2
+3
+
+2 2
+
+1
+11 src/chelper
+16 -Xmx256M -Xss64M
+4 Main
+13 chelper.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.20
+69 Russian CodeCup 1-й квалификационный раунд 2011
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

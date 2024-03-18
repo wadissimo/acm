@@ -1,0 +1,44 @@
+{
+  "name" : "B",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "... ... ...\n... ... ...\n... ... ...\n\n... ... ...\n... ... ...\n... x.. ...\n\n... ... ...\n... ... ...\n... ... ...\n6 4\n",
+    "output" : "... ... ... \n... ... ... \n... ... ... \n\n... ... ... \n... ... ... \n... x.. ... \n\n!!! ... ... \n!!! ... ... \n!!! ... ... \n\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "xoo x.. x..\nooo ... ...\nooo ... ...\n\nx.. x.. x..\n... ... ...\n... ... ...\n\nx.. x.. x..\n... ... ...\n... ... ...\n7 4\n",
+    "output" : "xoo x!! x!! \nooo !!! !!! \nooo !!! !!! \n\nx!! x!! x!! \n!!! !!! !!! \n!!! !!! !!! \n\nx!! x!! x!! \n!!! !!! !!! \n!!! !!! !!! \n\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "o.. ... ...\n... ... ...\n... ... ...\n\n... xxx ...\n... xox ...\n... ooo ...\n\n... ... ...\n... ... ...\n... ... ...\n5 5\n",
+    "output" : "o!! !!! !!! \n!!! !!! !!! \n!!! !!! !!! \n\n!!! xxx !!! \n!!! xox !!! \n!!! ooo !!! \n\n!!! !!! !!! \n!!! !!! !!! \n!!! !!! !!! \n\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r454",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r454.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.29",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

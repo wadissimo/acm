@@ -1,0 +1,44 @@
+{
+  "name" : "M",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "8 3\n1 2 3 3 2 1 2 2\n",
+    "output" : "4",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7 2\n2 2 2 2 2 2 2",
+    "output" : "1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 2\n2 1 2 1 2 1 2",
+    "output" : "7",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/icpc/y2018/school",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.icpc.y2018.school.M",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.09",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

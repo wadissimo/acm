@@ -1,0 +1,41 @@
+{
+  "name" : "A - Golden Plate",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3 3 1\n",
+    "output" : "8",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7 9 1\n",
+    "output" : "28",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 9 2\n",
+    "output" : "40",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r517",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r517.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.21",
+  "contestName" : "Codeforces Round #517 (Div. 2, based on Technocup 2019 Elimination Round 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

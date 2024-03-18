@@ -1,0 +1,51 @@
+{
+  "name" : "C - Sasha and a Bit of Relax",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n1 2 3 4 5\n",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n3 2 2 3 7 6\n",
+    "output" : "3",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n42 4 2\n",
+    "output" : "0",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5\n7 1 2 1 2",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "4\n1 2 1 2",
+    "output" : "1",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r539",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r539.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.17",
+  "contestName" : "Codeforces Round #539 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,48 @@
+{
+  "name" : "H - BerOS File Suggestion",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\ntest\ncontests\ntest.\n.test\n6\nnt\ns\nz\n.test\ncontes.\nst\n",
+    "output" : "1 contests\n2 test.\n1 test.\n1 .test\n0 -\n4 .test\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\ntest\ncontests\ntest.\n.test\n6\nts\n.\nst.\n.test\ncontes.\nst\n",
+    "output" : "1 contests\n2 test.\n1 test.\n1 .test\n0 -\n4 .test\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n.z.z.z\nzzz...\nabcabcabc\n4\nz\nzzz\nabc\nzabcb",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n.\nz\n2\na\nb",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2\na1bs2\na1a2a3a4\n2\na1\nz9",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/icpc2018/qf",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.icpc2018.qf.TaskH",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.20",
+  "contestName" : "2018-2019 ICPC, NEERC, Southern Subregional Contest (Online Mirror, ACM-ICPC Rules, Teams Preferred)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

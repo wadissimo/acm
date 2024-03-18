@@ -1,0 +1,29 @@
+20 A - Combination Lock
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+14 5
+82195
+64723
+
+3 13
+
+1
+19 src/codeforces/r301
+8 -Xmx256M
+4 Main
+21 codeforces.r301.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.04.30
+30 Codeforces Round #301 (Div. 2)
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

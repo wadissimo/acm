@@ -1,0 +1,34 @@
+1 A
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+56 deoxyribonucleic acid
+3
+deoxyribonucleic acid sequencing
+7 Correct
+1
+1
+35 yandex algoritm
+2
+algorithm yandex
+
+8 Misspell
+1
+15 src/yandex/qual
+16 -Xmx256m -Xss64m
+4 Main
+13 yandex.qual.A
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.05.17
+0 
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

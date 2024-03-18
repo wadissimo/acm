@@ -1,0 +1,64 @@
+{
+  "name" : "I - Photo Processing",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 2\n50 110 130 40 120\n",
+    "output" : "20\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 1\n2 3 4 1\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 3\n10 10 10 10",
+    "output" : "0",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6 3\n10 10 10 30 30 30",
+    "output" : "0",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "7 2\n1 10 10 10 20 50 50",
+    "output" : "10",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "6 2\n10 10 10 40 40 40",
+    "output" : "0",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "9 2\n10 10 10 30 30 30 50 50 50",
+    "output" : "0",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "main.TaskI",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.11",
+  "contestName" : "2017-2018 ACM-ICPC, NEERC, Южный четвертьфинал (онлайн-трансляция, правила ACM-ICPC, предпочтительно команды)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

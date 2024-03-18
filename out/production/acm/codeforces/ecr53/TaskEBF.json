@@ -1,0 +1,83 @@
+{
+  "name" : "TaskEBF",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "100 1",
+    "output" : "18",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1000 2",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "2000 2",
+    "output" : "",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "200 1",
+    "output" : "",
+    "index" : 3,
+    "active" : false
+  }, {
+    "input" : "200 2",
+    "output" : "",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "100 2",
+    "output" : "",
+    "index" : 5,
+    "active" : false
+  }, {
+    "input" : "4567 3",
+    "output" : "",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "123456 3",
+    "output" : "",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "1000 3",
+    "output" : "",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "2000 3",
+    "output" : "",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "4000 3",
+    "output" : "",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/ecr53",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ecr53.TaskEBF",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.05",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

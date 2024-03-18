@@ -1,0 +1,46 @@
+{
+  "name" : "D - Garbage Disposal",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3 2\n3 2 1\n",
+    "output" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 1\n1000000000 1000000000 1000000000 1000000000 1000000000\n",
+    "output" : "5000000000",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 2\n1 0 1\n",
+    "output" : "2",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "4 4\n2 8 4 1\n",
+    "output" : "4",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/icpc2018/qf",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.icpc2018.qf.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.20",
+  "contestName" : "2018-2019 ICPC, NEERC, Southern Subregional Contest (Online Mirror, ACM-ICPC Rules, Teams Preferred)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

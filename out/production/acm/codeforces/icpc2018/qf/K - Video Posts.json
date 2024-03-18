@@ -1,0 +1,46 @@
+{
+  "name" : "K - Video Posts",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6 3\n3 3 1 4 1 6\n",
+    "output" : "Yes\n2 3 1 ",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 1 1\n",
+    "output" : "Yes\n1 1 1 ",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 1 2\n",
+    "output" : "No",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 1\n1 10 100\n",
+    "output" : "Yes\n3 ",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/icpc2018/qf",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.icpc2018.qf.TaskK",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.20",
+  "contestName" : "2018-2019 ICPC, NEERC, Southern Subregional Contest (Online Mirror, ACM-ICPC Rules, Teams Preferred)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "C - Cram Time",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3 3\n",
+    "output" : "1\n3 \n2\n2 1 ",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9 12\n",
+    "output" : "2\n3 6\n4\n1 2 4 5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "100 100",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "100 3",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r517",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r517.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.21",
+  "contestName" : "Codeforces Round #517 (Div. 2, based on Technocup 2019 Elimination Round 2)",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

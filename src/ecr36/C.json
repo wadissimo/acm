@@ -1,0 +1,84 @@
+{
+  "name" : "C",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "123\n222\n",
+    "output" : "213\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3921\n10000\n",
+    "output" : "9321\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4940\n5000\n",
+    "output" : "4940\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n23123",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1234\n5111",
+    "output" : "4321",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "22221\n22222",
+    "output" : "22221",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "123\n321",
+    "output" : "321",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "993\n994",
+    "output" : "993",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "2019\n2000",
+    "output" : "1920",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "2219\n2200",
+    "output" : "2192",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "5439\n5432",
+    "output" : "5394",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/ecr36",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "ecr36.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.30",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

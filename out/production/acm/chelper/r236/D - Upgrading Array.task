@@ -1,0 +1,37 @@
+19 D - Upgrading Array
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+22 5 2
+4 20 34 10 10
+2 5
+
+3 -2
+
+1
+1
+25 4 5
+2 4 8 16
+3 5 7 11 17
+
+3 10
+
+1
+16 src/chelper/r236
+8 -Xmx256M
+4 Main
+18 chelper.r236.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.29
+30 Codeforces Round #236 (Div. 2)
+1
+22 chelper.io.InputReader
+19 java.io.PrintWriter
+0
+0

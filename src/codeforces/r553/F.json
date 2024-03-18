@@ -1,0 +1,44 @@
+{
+  "name" : "F",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n0 1 0\n",
+    "output" : "333333336",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 1\n1 1 1 0 0\n",
+    "output" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6 4\n1 0 0 1 1 0\n",
+    "output" : "968493834",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r553",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r553.F",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.19",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

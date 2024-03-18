@@ -1,0 +1,36 @@
+{
+  "name" : "OneHandSort2",
+  "signature" : {
+    "name" : "minMoves",
+    "result" : "int",
+    "arguments" : [ "int", "int[]", "int", "int" ],
+    "argumentNames" : [ "N", "targetPrefix", "a", "b" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "4", "1 2 3 0", "0", "0" ],
+    "result" : "5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "4", "2 3 0 1", "0", "0" ],
+    "result" : "6",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "3 7", "1664525", "1013904223" ],
+    "result" : "11",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "5 9 8 7 6 0 3", "0", "1" ],
+    "result" : "13",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2019.04.20",
+  "contestName" : "TopCoder SRM #755",
+  "testClasses" : [ ],
+  "fqn" : "main.OneHandSort2",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

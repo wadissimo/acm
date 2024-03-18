@@ -1,0 +1,84 @@
+{
+  "name" : "r534A",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n",
+    "output" : "1\n1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n",
+    "output" : "2\n2 2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "27",
+    "output" : "3\n9 9 9",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "16",
+    "output" : "8\n2 2 2 2 2 2 2 2",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "13",
+    "output" : "2\n9 4",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "18",
+    "output" : "2\n9 9",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "10",
+    "output" : "5\n2 2 2 2 2",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "17",
+    "output" : "2\n9 8",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "11",
+    "output" : "2\n9 2",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "1000",
+    "output" : "",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "997",
+    "output" : "",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/all",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.all.r534A",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.08",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

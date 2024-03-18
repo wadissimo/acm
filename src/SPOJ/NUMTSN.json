@@ -1,0 +1,54 @@
+{
+  "name" : "NUMTSN",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n121 4325\n432 4356\n4234 4325667",
+    "output" : "60\n58\n207159",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n100000000000000000000000000000000000000000000000000 100000000000000000000000000000000000000000000000000\n1 99999999999999999999999999999999999999999999999999",
+    "output" : "0\n129112453",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n1 999666333\n383676989 383676989",
+    "output" : "61889856\n1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n33333333333333333333333333333333333333333333333333 33333333399999999999999999999666666633333367893333",
+    "output" : "738831524",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3\n369 369\n1 369\n369 693",
+    "output" : "1\n1\n4",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/SPOJ",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "SPOJ.NUMTSN",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.30",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

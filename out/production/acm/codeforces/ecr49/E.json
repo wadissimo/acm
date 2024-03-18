@@ -1,0 +1,44 @@
+{
+  "name" : "E",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1 1\n",
+    "output" : "0",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 3\n",
+    "output" : "6",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "49 1808\n",
+    "output" : "359087121\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/ecr49",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ecr49.E",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.03",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

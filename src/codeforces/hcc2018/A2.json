@@ -1,0 +1,34 @@
+{
+  "name" : "A2",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 5\nsomer\nandom\nnoise\nmayth\neforc\nebewi\nthyou\nhctwo\nagain\nnoise\nsomermayth\nandomeforc\nnoiseebewi\nagainthyou\nnoisehctwo\n",
+    "output" : "4 6\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/hcc2018",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.hcc2018.A2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.04",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

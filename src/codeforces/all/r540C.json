@@ -1,0 +1,54 @@
+{
+  "name" : "r540C",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n1 8 8 1 2 2 2 2 2 2 2 2 1 8 8 1\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n1 1 1 1 1 3 3 3 3\n",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n1 2 1 9 8 4 3 8 8 3 4 8 9 2 1 1\n",
+    "output" : "NO\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n10\n",
+    "output" : "YES\n10 \n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3\n1 1 1 4 4 4 4 4 4",
+    "output" : "",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/all",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.all.r540C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.19",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

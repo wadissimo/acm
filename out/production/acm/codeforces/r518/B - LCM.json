@@ -1,0 +1,45 @@
+{
+  "name" : "B - LCM",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "1\n",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2",
+    "output" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "24",
+    "output" : "",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces/r518",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.r518.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.10.24",
+  "contestName" : "Codeforces Round #518 (Div. 2) [Thanks, Mail.Ru!]",
+  "truncate" : true,
+  "inputClass" : "chelper.io.FastScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}
